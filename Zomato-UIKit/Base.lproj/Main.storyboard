@@ -8,49 +8,49 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Reorder-->
         <scene sceneID="rCI-X5-Syg">
             <objects>
-                <viewController id="RqT-Qk-v1u" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReorderVC" id="RqT-Qk-v1u" customClass="ReorderVC" customModule="Zomato_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cbl-0m-xlC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="KXg-HZ-ob2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="ttb-o9-3WE"/>
+                    <tabBarItem key="tabBarItem" title="Reorder" id="ttb-o9-3WE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="im5-tI-exR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-975" y="-96"/>
         </scene>
-        <!--Item-->
+        <!--Live-->
         <scene sceneID="Pnr-EK-R8c">
             <objects>
-                <viewController id="6OP-kD-V9E" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LiveVC" id="6OP-kD-V9E" customClass="LiveVC" customModule="Zomato_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sHb-X4-Tav">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="LeW-S1-BaU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bdl-18-0Za"/>
+                    <tabBarItem key="tabBarItem" title="Live" id="bdl-18-0Za"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y9H-9g-Al8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-237" y="-96"/>
         </scene>
-        <!--Item 1-->
+        <!--Delivery-->
         <scene sceneID="Zsd-wR-MVO">
             <objects>
-                <viewController id="3td-qt-MFT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DeliveryVC" id="3td-qt-MFT" customClass="DeliveryVC" customModule="Zomato_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="84r-e1-sDL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Mm0-dC-d99"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="1un-Ss-eVe"/>
+                    <tabBarItem key="tabBarItem" title="Delivery" id="1un-Ss-eVe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUR-xS-KV5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,44 +70,27 @@
                         <segue destination="RqT-Qk-v1u" kind="relationship" relationship="viewControllers" id="8bc-Ts-Y7H"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="tPf-EE-t6t"/>
                         <segue destination="6OP-kD-V9E" kind="relationship" relationship="viewControllers" id="vfh-ac-AAX"/>
-                        <segue destination="qqL-BZ-QFm" kind="relationship" relationship="viewControllers" id="2WI-Yh-Fg8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tCx-xu-wpE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1866" y="-380"/>
         </scene>
-        <!--Item-->
+        <!--Dining-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zomato_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DiningVC" id="BYZ-38-t0r" customClass="DiningVC" customModule="Zomato_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="goP-0R-n8z"/>
+                    <tabBarItem key="tabBarItem" title="Dining" id="goP-0R-n8z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-256" y="-782"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="jrX-cD-f0Z">
-            <objects>
-                <viewController id="qqL-BZ-QFm" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="v9i-QB-zcb">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="pg6-fy-cSs"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="7Iv-45-mhq"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KzP-hX-2Vz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="464" y="-499"/>
         </scene>
     </scenes>
     <resources>

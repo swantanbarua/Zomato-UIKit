@@ -30,6 +30,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5E44030F2D45383B0047F5F3 /* Exceptions for "Controllers" folder in "Zomato-UIKitTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DeliveryVC.swift,
+				LiveVC.swift,
+				ReorderVC.swift,
+			);
+			target = 5EABD83A2CD8C0950080B8D1 /* Zomato-UIKitTests */;
+		};
+		5E4403102D45383B0047F5F3 /* Exceptions for "Controllers" folder in "Zomato-UIKitUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DeliveryVC.swift,
+				LiveVC.swift,
+				ReorderVC.swift,
+			);
+			target = 5EABD8442CD8C0950080B8D1 /* Zomato-UIKitUITests */;
+		};
 		5EABD84D2CD8C0950080B8D1 /* Exceptions for "Zomato-UIKit" folder in "Zomato-UIKit" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -40,6 +58,15 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		5E4403072D45380E0047F5F3 /* Controllers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5E44030F2D45383B0047F5F3 /* Exceptions for "Controllers" folder in "Zomato-UIKitTests" target */,
+				5E4403102D45383B0047F5F3 /* Exceptions for "Controllers" folder in "Zomato-UIKitUITests" target */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		5EABD8272CD8C0920080B8D1 /* Zomato-UIKit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -89,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				5EABD8272CD8C0920080B8D1 /* Zomato-UIKit */,
+				5E4403072D45380E0047F5F3 /* Controllers */,
 				5EABD83E2CD8C0950080B8D1 /* Zomato-UIKitTests */,
 				5EABD8482CD8C0950080B8D1 /* Zomato-UIKitUITests */,
 				5EABD8262CD8C0920080B8D1 /* Products */,
@@ -121,6 +149,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				5E4403072D45380E0047F5F3 /* Controllers */,
 				5EABD8272CD8C0920080B8D1 /* Zomato-UIKit */,
 			);
 			name = "Zomato-UIKit";
